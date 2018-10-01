@@ -1,0 +1,325 @@
+
+
+body {
+	font-size: 16px;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.column {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.offset {
+	position: relative;
+	top: 64px;
+	top: 4rem;
+}
+
+h1,
+h2,
+h3,
+p,
+span {
+	font-family: "Noto Serif KR";
+}
+
+h1 {
+	font-size: 40px;
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 32px;
+	font-size: 2rem;
+	color: rgb(255, 242, 220);
+}
+
+h3 {
+	font-size: 24px;
+	font-size: 1.5rem;
+	color: rgb(255, 242, 220);
+}
+
+/* fixed banner */
+
+.fixed {
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	            -ms-grid-row-align: center;
+	        align-items: center;
+	height: 64px;
+	height: 4rem;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	background-color: rgb(92, 115, 145);
+	border-bottom: 1px solid rgb(2, 20, 44);
+}
+
+.logo {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	            -ms-grid-row-align: center;
+	        align-items: center;
+	padding-left: 24px;
+}
+
+.logo span {
+	font-family: "Orbitron";
+}
+
+#transparent {
+	opacity: .6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.nav {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	            -ms-grid-row-align: center;
+	        align-items: center;
+	padding-right: 8px;
+	padding-right: .5rem;
+}
+
+.nav span {
+	padding: 16px;
+	padding: 1rem;
+}
+
+.nav span:hover {
+	background-color: rgb(162, 172, 185);
+}
+
+/* large banner */
+
+.lrg_banner {
+	background-color: rgb(162, 172, 185);
+}
+
+.lrg_banner img {
+	width: 60%;
+	height: 60%;
+	padding: 32px 24px;
+	padding: 2rem 1.5rem;
+}
+
+.lrg_banner_two {
+	max-width: 30%;
+	margin: auto;
+}
+
+#bot_pad {
+	padding-bottom: 30px;
+}
+
+.button {
+	text-align: center;
+	background-color: rgb(92, 115, 145);
+	padding: 8px 0;
+	color: white;
+}
+
+.button:hover {
+	color: black;
+}
+
+
+.lrg_pic {
+	max-width: 60%;
+	height: auto;
+	padding: 32px 24px;
+	padding: 2rem 1.5rem;
+}
+
+.lrg_pic img {
+	padding-right: 24px;
+	padding-right: 1.5rem;
+	padding-bottom: 32px;
+	padding-bottom: 2rem;
+	max-width: 100%;
+}
+
+.lrg_pic h1 {
+	padding-bottom: 24px;
+	padding-bottom: 1.5rem;
+}
+
+.lrg_pic p {
+	padding-bottom: 32px;
+	padding-bottom: 2rem;
+}
+
+.small_p {
+	font-size: 13.6px;
+	font-size: .85rem;
+	padding-bottom: 0;
+	font-style: italic;
+}
+
+/* right hand side of Info section AND exhibit section*/
+
+.info_contain {
+	padding: 16px;
+	padding: 1rem;
+	background-color: rgb(100, 115, 100);
+	margin-top: 32px;
+	margin-top: 2rem;
+	margin-right: 16px;
+	margin-right: 1rem;
+}
+
+.info_contain:hover {
+	background-color: rgb(221, 187, 132);
+}
+
+.info_contain img {
+	width: 35%;
+	height: 100%;
+}
+
+.info_contain_text {
+	padding: 16px;
+	padding: 1rem;
+}
+
+.info_contain_text h2,
+.info_contain_text p {
+	padding-bottom: 8px;
+	padding-bottom: .5rem;
+}
+
+.info_contain_text a {
+	color: rgb(67, 42, 0);
+}
+
+.info_contain_text a:hover {
+	background-color: rgb(255, 242, 220);
+}
+
+
+/*Start learning */
+
+.learn {
+	background-color: rgb(262, 172, 100);
+}
+
+.learn h1 {
+	text-align: center;
+	padding-top: 32px;
+	padding-top: 2rem;
+}
+
+.courses {
+	padding: 32px 40px;
+	padding: 2rem 2.5rem;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+.course_box {
+	min-width: 25%;
+	max-width: 30%;
+	margin-right: 8px;
+	margin-right: .5rem;
+	margin-bottom: 24px;
+	margin-bottom: 1.5rem;
+	background-color: rgb(92, 115, 145);
+}
+
+.course_box img {
+	height: auto;
+	width: 100%;
+}
+
+.course_text {
+	padding: 24px;
+	padding: 1.5rem;
+}
+
+.course_text h3 {
+	padding-bottom: 16px;
+	padding-bottom: 1rem;
+}
+
+.course_text p {
+	padding-bottom: 8px;
+	padding-bottom: .5rem;
+	opacity: .65;
+
+}
+
+/* thesis exhibit */
+
+.thesis {
+	padding-bottom: 32px;
+	padding-bottom: 2rem;
+}
+
+.thesis h1 {
+	text-align: center;
+	padding: 32px;
+	padding: 2rem;
+}
+
+.exhibit {
+	max-width: 60%;
+	height: 100%;
+	padding-left: 24px;
+	padding-left: 1.5rem;
+}
+
+.exhibit video {
+	width: 100%;
+	padding-bottom: 8px;
+	padding-bottom: .5rem;
+}
+
+.exhibit h2 {
+	padding-bottom: 24px;
+	padding-bottom: 1.5rem;
+	color: black;
+}
+
+.ex_box {
+	margin-left: 24px;
+	margin-left: 1.5rem;
+}
+
+/* footer */
+
+footer {
+	height: 80px;
+	height: 5rem;
+	background-color: rgb(162, 172, 185);
+	border-top: 1px solid rgb(2, 20, 44);
+}
+
+.foot {
+	padding: 16px 24px;
+	padding: 1rem 1.5rem;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	opacity: .6;
+
+}
+
+.foot_text span {
+	padding-left: 16px;
+	padding-left: 1rem;
+}
